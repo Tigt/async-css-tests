@@ -52,3 +52,4 @@ This is a combinatorial explosion, and I really need to figure out how to auto-g
 * `<link rel="preload">`
 * `<link>` with the `lazyload` attribute
 * HTML Imports
+* `<object type="text/css">` in the `<head>`
