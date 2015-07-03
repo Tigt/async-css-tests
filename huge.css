@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+body:before {
+  position: absolute;
+  content: "Stylesheet loaded!";
+  top: 0;
+  right: 0;
+  font: bold 2em sans-serif;
+  background-color: red;
+}
+
+/* And now...
+
+
+*/

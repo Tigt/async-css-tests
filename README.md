@@ -1,7 +1,7 @@
 # async-css-tests
 A bunch of web pages for testing various "async" CSS methods in various browsers
 
-We have a large, ~100kB `.html` file and an equally large `.css` to be downloaded on each.
+We have a large (filesize) `.html` file and an equally large `.css` to be downloaded on each.
 
 ## Disclaimer
 
@@ -35,7 +35,8 @@ This is a combinatorial explosion, and I really need to figure out how to auto-g
 
 ### HTTP `Link:` header
 
-* Lone `Link: <style.css>; rel=stylesheet
+* Lone `Link: <style.css>; rel=stylesheet`
+* Header with `<link>` in the `<head>` like usual
 * Header with non-matching `media`, `<link>` at the top of the `<body>`
 * Header with non-matching `media`, `<link>` at the bottom of the `<body>`
 * Header with non-matching `type`, `<link>` at the top of the `<body>`
